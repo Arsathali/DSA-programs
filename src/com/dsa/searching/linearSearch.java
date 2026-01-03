@@ -1,6 +1,6 @@
 package com.dsa.searching;
 
-public class linearSearch {
+public class LinearSearch {
     
     public static void main(String[] args) {
         
