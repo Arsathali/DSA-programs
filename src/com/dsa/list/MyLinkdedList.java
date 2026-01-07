@@ -135,6 +135,20 @@ public class MyLinkdedList<T> {
         return data;
      }
 
+    public T get(int node) {
+        if (node < 0 || node >= size) return null;
+        Node<T> temp = head;
+        for (int i = 0; i < node; i++) {
+            temp = temp.next;
+        }
+        return temp.data;
+    }
+
+    // get head node (for traversal)
+    public Node<T> getHead() {
+        return head;
+    }
+
      //getfirst value
      public T getFirst(){
         return size == 0 ? null : head.data;

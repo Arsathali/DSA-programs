@@ -1,7 +1,7 @@
 package com.dsa.queue;
 import com.dsa.list.MyLinkdedList;
 
-class QueueLL<T>{
+public class QueueLL<T>{
 
     MyLinkdedList<T> myLinkdedList = new MyLinkdedList<>();
 
